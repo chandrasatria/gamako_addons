@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gamako_tool *.css
+recursive-include gamako_tool *.csv
+recursive-include gamako_tool *.html
+recursive-include gamako_tool *.ico
+recursive-include gamako_tool *.js
+recursive-include gamako_tool *.json
+recursive-include gamako_tool *.md
+recursive-include gamako_tool *.png
+recursive-include gamako_tool *.py
+recursive-include gamako_tool *.svg
+recursive-include gamako_tool *.txt
+recursive-exclude gamako_tool *.pyc
